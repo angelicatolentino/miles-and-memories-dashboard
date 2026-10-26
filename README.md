@@ -2,10 +2,10 @@
 
 **A six page Power BI dashboard that turns two and a half years of bike sales into clear decisions.**
 
-![Overview page of the Miles & Memories dashboard](images/1-overview.png)
+![Overview page of the Miles & Memories dashboard](1-overview.png)
 
-> Case study: [Capstone-Case-Study.pdf](docs/Capstone-Case-Study.pdf) (59 pages, how I built it and why)
-> Dashboard export: [Dashboard-Export.pdf](docs/Dashboard-Export.pdf) (all six pages)
+> Case study: [Capstone-Case-Study.pdf](Capstone-Case-Study.pdf) (59 pages, how I built it and why)
+> Dashboard export: [Dashboard-Export.pdf](Dashboard-Export.pdf) (all six pages)
 
 ## The business problem
 
@@ -38,11 +38,11 @@ Every number, caption and colour on the dashboard comes from a measure, so nothi
 | Trends | Is revenue growth sustained, and what comes next? | Plan Q4 stock and staffing for the December spike |
 | Strategy | What do we do next? | Lift the Canada basket and close the bike attach gap first |
 
-![Products](images/2-products.png)
-![Customers](images/3-customers.png)
-![Territory](images/4-territory.png)
-![Trends](images/5-trends.png)
-![Strategy](images/6-strategy.png)
+![Products](2-products.png)
+![Customers](3-customers.png)
+![Territory](4-territory.png)
+![Trends](5-trends.png)
+![Strategy](6-strategy.png)
 
 ## Key findings
 
@@ -74,24 +74,25 @@ The data is the AdventureWorks sample dataset from my data analytics bootcamp, l
 ## How to view the dashboard
 
 1. Scroll up to see a screenshot of every page.
-2. Open [Dashboard-Export.pdf](docs/Dashboard-Export.pdf) to see all six pages at full size.
-3. Open [Capstone-Case-Study.pdf](docs/Capstone-Case-Study.pdf) to read how and why I built each page.
+2. Open [Dashboard-Export.pdf](Dashboard-Export.pdf) to see all six pages at full size.
+3. Open [Capstone-Case-Study.pdf](Capstone-Case-Study.pdf) to read how and why I built each page.
 
 The Power BI file (.pbix) is not in this repository. It is available on request, or I am happy to walk through it live.
 
 ## What is in this repository
 
 ```
-miles-and-memories-dashboard/
-├── README.md
-├── docs/
-│   ├── Capstone-Case-Study.pdf
-│   └── Dashboard-Export.pdf
-├── images/            (one screenshot per page)
-└── dax/               (all 255 DAX measures, grouped by table)
+README.md                    (this page)
+Capstone-Case-Study.pdf     (59 pages, how I built it and why)
+Dashboard-Export.pdf        (all six pages at full size)
+1-overview.png ... 6-strategy.png   (one screenshot per page)
+1-Measure.md                (DAX measures, folder _Measure)
+2-Calculate.md              (DAX measures, folder _Calculate)
+3-TIME-INT.md               (DAX measures, folder _TIME INT)
+4-Helper-tables.md          (helper measures for sliders and selectors)
 ```
 
-The `dax` folder has the formula for every one of the 255 measures. Appendix A of the case study ranks them by how much the dashboard depends on each one, with a plain English reason for each.
+The four `.md` files hold the formula for every one of the 255 measures. Appendix A of the case study ranks them by how much the dashboard depends on each one, with a plain English reason for each.
 
 ## About me
 
