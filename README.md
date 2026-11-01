@@ -4,8 +4,17 @@
 
 ![Overview page of the Miles & Memories dashboard](1-overview.png)
 
+> Watch the video walkthrough: [Dashboard walkthrough](https://youtu.be/9dISoU2fqz8)
 > Case study: [Capstone-Case-Study.pdf](Capstone-Case-Study.pdf) (59 pages, how I built it and why)
 > Dashboard export: [Dashboard-Export.pdf](Dashboard-Export.pdf) (all six pages)
+
+## Watch the dashboard in action
+
+The Power BI file is not in this repository, so this video shows the dashboard working: the date picker, the toggles and the Strategy sliders.
+
+[![Watch the dashboard walkthrough](1-overview.png)](https://youtu.be/9dISoU2fqz8)
+
+[Watch the 2 minute walkthrough](https://youtu.be/9dISoU2fqz8)
 
 ## The business problem
 
@@ -73,11 +82,12 @@ The data is the AdventureWorks sample dataset from my data analytics bootcamp, l
 
 ## How to view the dashboard
 
-1. Scroll up to see a screenshot of every page.
-2. Open [Dashboard-Export.pdf](Dashboard-Export.pdf) to see all six pages at full size.
-3. Open [Capstone-Case-Study.pdf](Capstone-Case-Study.pdf) to read how and why I built each page.
+1. Watch the video walkthrough near the top of this page.
+2. Scroll down to see a screenshot of every page.
+3. Open [Dashboard-Export.pdf](Dashboard-Export.pdf) to see all six pages at full size.
+4. Open [Capstone-Case-Study.pdf](Capstone-Case-Study.pdf) to read how and why I built each page.
 
-The Power BI file (.pbix) is not in this repository. It is available on request, or I am happy to walk through it live.
+The Power BI file (.pbix) is not in this repository. The video shows the interactive parts, and I am happy to walk through the file live.
 
 ## What is in this repository
 
